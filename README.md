@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=github_dark&show_icons=true)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChoiDaeYoung&theme=github_dark&show_icons=true)
 
 <!--
 **ChoiDaeYoung-94/ChoiDaeYoung-94** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
