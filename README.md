@@ -34,7 +34,7 @@ Unity와 C#으로 게임플레이와 게임 시스템을 구현합니다.
 Photon Fusion을 사용한 멀티플레이 프로젝트입니다. 재활용 스크롤 UI와 대상 씬을 Additive로 로드한 뒤 기존 씬을 해제하는 전환 방식을 적용했습니다.
 
 ### 개발 도구 · 공통 기반
-**[unity-cicd](https://github.com/ChoiDaeYoung-94/unity-cicd)**에는 Unity 빌드 스크립트, Python CLI와 GitHub Actions 구성을, **[project-base](https://github.com/ChoiDaeYoung-94/project-base)**에는 프로젝트 시작에 사용하는 공통 씬·스크립트·프리팹을 정리했습니다. 빌드 자동화 저장소에는 기존 App Center 배포 구성이 포함되어 있습니다.
+[unity-cicd](https://github.com/ChoiDaeYoung-94/unity-cicd)에는 Unity 빌드 스크립트, Python CLI와 GitHub Actions 구성을, [project-base](https://github.com/ChoiDaeYoung-94/project-base)에는 프로젝트 시작에 사용하는 공통 씬·스크립트·프리팹을 정리했습니다. 빌드 자동화 저장소에는 기존 App Center 배포 구성이 포함되어 있습니다.
 
 ## 프로젝트에서 사용한 기술
 
