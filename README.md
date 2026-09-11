@@ -1,47 +1,80 @@
-# ChoiDaeYoung
-### Unity · C# Game Client Developer
+<img src="./assets/header.svg" width="100%" alt="ChoiDaeYoung — Unity / C# Game Client Developer" />
 
-Unity와 C#으로 게임플레이와 게임 시스템을 구현합니다.  
-모바일 게임, Photon Fusion 기반 멀티플레이, 데이터로 구성하는 스킬 시스템과 빌드 자동화 프로젝트를 정리했습니다.
+<p align="center">
+  <b>Unity와 C#으로 게임플레이와 게임 시스템을 구현합니다.</b><br/>
+  모바일 게임 · 멀티플레이 · 스킬 시스템 · 빌드 자동화
+</p>
 
-[기술 블로그](https://young-94.tistory.com/) · [전체 저장소](https://github.com/ChoiDaeYoung-94?tab=repositories)
+<p align="center">
+  <a href="https://young-94.tistory.com/"><img src="https://img.shields.io/badge/Tech_Blog-101b2d?style=for-the-badge&logo=tistory&logoColor=white" alt="기술 블로그"/></a>
+  <a href="https://github.com/ChoiDaeYoung-94?tab=repositories"><img src="https://img.shields.io/badge/Repositories-101b2d?style=for-the-badge&logo=github&logoColor=white" alt="전체 저장소"/></a>
+</p>
 
-## 대표 프로젝트
+## Featured Project
 
-| 프로젝트 | 소개 | 주요 구현 · 살펴볼 내용 |
-| :--- | :--- | :--- |
-| **[Monster Tamer](https://github.com/ChoiDaeYoung-94/Tamer)** | 몬스터를 동료로 모아 전투하는 Android 3D 게임 | 이동·전투·동료·버프, PlayFab 연동, 광고·IAP |
-| **[SuddenForce-FPS](https://github.com/ChoiDaeYoung-94/SuddenForce-FPS)** | Photon Fusion 기반 3D 멀티플레이 FPS | 멀티플레이, 재활용 스크롤 UI, Additive 씬 전환 |
-| **[SkillSystem](https://github.com/ChoiDaeYoung-94/SkillSystem)** | 블리츠크랭크 Q 스킬을 재현한 시스템 프로젝트 | Actor / Skill / Effect 구조, CSV 기반 스킬 설정 |
-| **[Incremental](https://github.com/ChoiDaeYoung-94/Incremental)** | 2D 방치형 게임의 기반 시스템 | 오브젝트 풀링, 로그인·데이터 저장, 게임 UI |
-| **[unity-cicd](https://github.com/ChoiDaeYoung-94/unity-cicd)** | Unity Android 빌드 자동화 스크립트와 가이드 | GitHub Actions, Python CLI, 빌드 버전 관리 |
+<table>
+<tr>
+<td width="27%" align="center">
+<a href="https://github.com/ChoiDaeYoung-94/Tamer"><img src="https://raw.githubusercontent.com/ChoiDaeYoung-94/Tamer/main/Assets/Art/Images/icon.png" width="190" alt="Monster Tamer 실제 게임 아이콘"/></a>
+</td>
+<td width="73%">
+<h3>Monster Tamer</h3>
+<p>몬스터를 동료로 모아 전투하는 <b>Android 3D 게임</b></p>
+<p>이동·전투·동료·버프 시스템<br/>PlayFab 연동 · 광고 · Unity IAP</p>
+<p><a href="https://github.com/ChoiDaeYoung-94/Tamer">프로젝트 →</a> · <a href="https://github.com/user-attachments/assets/243e5193-5e8f-4966-8b98-c724b62767dd">플레이 영상 ↗</a> · <a href="https://github.com/ChoiDaeYoung-94/Tamer/tree/main/Assets/Scripts/Creatures">핵심 코드 ↗</a></p>
+</td>
+</tr>
+</table>
 
-## 코드로 보는 구현
+> **현재 진행:** Unity 6 / Android 환경 복구·검증 — [검증 결과와 남은 작업](https://github.com/ChoiDaeYoung-94/Tamer/blob/main/docs/revival/completion-summary.ko.md)
 
-### 게임플레이 · 서비스 연동
-**Monster Tamer** — [게임플레이 코드](https://github.com/ChoiDaeYoung-94/Tamer/tree/main/Assets/Scripts/Creatures) · [관리자 코드](https://github.com/ChoiDaeYoung-94/Tamer/tree/main/Assets/Scripts/Managers) · [트레일러](https://github.com/user-attachments/assets/243e5193-5e8f-4966-8b98-c724b62767dd)
+## Selected Work
 
-플레이어와 몬스터의 이동·전투·동료·버프 처리, 데이터와 서비스 연동을 살펴볼 수 있습니다. 현재 Unity 6 / Android 환경으로 복구·검증을 진행 중이며, 검증 결과와 남은 작업은 [개발 문서](https://github.com/ChoiDaeYoung-94/Tamer/blob/main/docs/revival/completion-summary.ko.md)에 정리되어 있습니다.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ChoiDaeYoung-94/SkillSystem"><img src="./assets/skills.svg" width="100%" alt="SkillSystem 구성 개념도: Actor, Skill, Effect"/></a>
+<h3>데이터로 구성하는 스킬 시스템</h3>
+<p>블리츠크랭크 Q 스킬 재현.<br/>액터·스킬·효과를 분리하고 CSV로 스킬 정보를 설정합니다.</p>
+<p><a href="https://github.com/ChoiDaeYoung-94/SkillSystem">프로젝트 →</a> · <a href="https://github.com/user-attachments/assets/7f3320d5-8082-458e-a63d-24321c552966">시연 영상 ↗</a> · <a href="https://github.com/ChoiDaeYoung-94/SkillSystem/blob/main/Assets/Scripts/Skill.cs">핵심 코드 ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ChoiDaeYoung-94/SuddenForce-FPS"><img src="./assets/multiplayer.svg" width="100%" alt="SuddenForce FPS 멀티플레이 개념도"/></a>
+<h3>Photon Fusion 멀티플레이 FPS</h3>
+<p>Unity 3D FPS 프로젝트.<br/>재활용 스크롤 UI와 Additive 씬 전환을 적용했습니다.</p>
+<p><a href="https://github.com/ChoiDaeYoung-94/SuddenForce-FPS">프로젝트 →</a> · <a href="https://github.com/ChoiDaeYoung-94/SuddenForce-FPS/blob/main/Assets/Scripts/UI/RecyclableScrollView/RoomManage.cs">UI 코드 ↗</a> · <a href="https://github.com/ChoiDaeYoung-94/SuddenForce-FPS/blob/main/Assets/Scripts/Managers/SceneManager.cs">씬 전환 ↗</a></p>
+</td>
+</tr>
+</table>
 
-### 스킬 구조 · 데이터 분리
-**SkillSystem** — [Actor](https://github.com/ChoiDaeYoung-94/SkillSystem/blob/main/Assets/Scripts/Actor.cs) · [Skill](https://github.com/ChoiDaeYoung-94/SkillSystem/blob/main/Assets/Scripts/Skill.cs) · [Effect](https://github.com/ChoiDaeYoung-94/SkillSystem/blob/main/Assets/Scripts/Effect.cs) · [스킬 데이터](https://github.com/ChoiDaeYoung-94/SkillSystem/blob/main/Assets/Skill_Info.csv)
+## Development Tools
 
-여러 캐릭터에 적용할 수 있도록 액터·스킬·효과를 나누고, 스킬 정보를 CSV에서 설정하도록 구성한 프로젝트입니다.
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/ChoiDaeYoung-94/unity-cicd"><img src="./assets/automation.svg" width="100%" alt="빌드 흐름: Actions 또는 CLI에서 Unity를 통해 APK와 AAB 생성"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>반복 작업을 줄이는 개발 도구</h3>
+<p><a href="https://github.com/ChoiDaeYoung-94/unity-cicd"><b>unity-cicd</b></a><br/>Python CLI · GitHub Actions · Unity 빌드 버전 관리</p>
+<p><a href="https://github.com/ChoiDaeYoung-94/project-base"><b>project-base</b></a><br/>공통 씬·스크립트·프리팹을 모은 프로젝트 시작 기반</p>
+<sub>자동화 저장소에는 기존 App Center 배포 구성이 포함되어 있습니다.</sub>
+</td>
+</tr>
+</table>
 
-### 멀티플레이 · UI · 씬 전환
-**SuddenForce-FPS** — [게임 코드](https://github.com/ChoiDaeYoung-94/SuddenForce-FPS/tree/main/Assets/Scripts) · [룸 목록 UI](https://github.com/ChoiDaeYoung-94/SuddenForce-FPS/blob/main/Assets/Scripts/UI/RecyclableScrollView/RoomManage.cs) · [씬 관리자](https://github.com/ChoiDaeYoung-94/SuddenForce-FPS/blob/main/Assets/Scripts/Managers/SceneManager.cs)
+**[Incremental](https://github.com/ChoiDaeYoung-94/Incremental)** · 2D 방치형 게임 기반 — 오브젝트 풀링, 로그인·저장, 게임 UI · [플레이 영상 ↗](https://user-images.githubusercontent.com/66999597/215687283-d704df78-6818-46a8-8b24-f8daa84d277e.mp4)
 
-Photon Fusion을 사용한 멀티플레이 프로젝트입니다. 재활용 스크롤 UI와 대상 씬을 Additive로 로드한 뒤 기존 씬을 해제하는 전환 방식을 적용했습니다.
+## Tech Stack
 
-### 개발 도구 · 공통 기반
-[unity-cicd](https://github.com/ChoiDaeYoung-94/unity-cicd)에는 Unity 빌드 스크립트, Python CLI와 GitHub Actions 구성을, [project-base](https://github.com/ChoiDaeYoung-94/project-base)에는 프로젝트 시작에 사용하는 공통 씬·스크립트·프리팹을 정리했습니다. 빌드 자동화 저장소에는 기존 App Center 배포 구성이 포함되어 있습니다.
+<p>
+<img src="https://img.shields.io/badge/Unity-222c3c?style=flat-square&logo=unity&logoColor=white" alt="Unity"/>
+<img src="https://img.shields.io/badge/C%23-6354a5?style=flat-square" alt="C#"/>
+<img src="https://img.shields.io/badge/Android-267c62?style=flat-square&logo=android&logoColor=white" alt="Android"/>
+<img src="https://img.shields.io/badge/Photon_Fusion-28699e?style=flat-square" alt="Photon Fusion"/>
+<img src="https://img.shields.io/badge/PlayFab-28699e?style=flat-square" alt="PlayFab"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-384e75?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Python-384e75?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+</p>
 
-## 프로젝트에서 사용한 기술
-
-- **게임 개발:** Unity, C#, Android
-- **멀티플레이 · 서비스:** Photon Fusion, PlayFab, Google Play Games, Unity IAP, Google Mobile Ads
-- **UI · 데이터:** DOTween, CSV 기반 설정, 오브젝트 풀링
-- **개발 도구:** Git, GitHub Actions, Python, Unity Editor 빌드 스크립트
-
----
-게임의 동작은 영상으로, 구현 방식은 코드로 확인하실 수 있도록 프로젝트별 링크를 연결했습니다.
+<sub>프로젝트에 사용한 기술입니다. 상세 구현과 실행 환경은 각 저장소에서 확인하실 수 있습니다.</sub>
